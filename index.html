@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Opdracht Forms </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+
+    <header class="formHeader">
+      <h1>Contact Us</h1>
+    </header>
+    <hr/>
+
+    <form action='' method='get' class='speaker-form'>
+      <div class="body-container">
+        <div class="body-form">
+          <div class='form-row blokL'>
+            <label for='firstName'>First name</label>
+            <input id='firstName' name='firstName' type='text'/>
+          </div>
+          <div class='form-row blokR'>
+            <label for='lastName'>Last name <span class="mandatory">*</span> </label>
+            <input id='lastName' name='lastName' type='text'/>
+          </div>
+          <div class="clearfix"></div>
+          <div class='form-row blokL'>
+            <label for='email'>E-mail</label>
+            <input id='email'
+                   name='email'
+                   type='email'
+                   placeholder='joe@example.com'/>
+          </div>
+          <div class='form-row blokR'>
+            <label for='phonenumber'>Business Phone</label>
+            <input id='phonenumber' name='phonenumber' type='number'/>
+          </div>
+          <div class="clearfix"></div>
+          <div class='form-row blokL'>
+            <label for='companyname'>Company Name <span class="mandatory">*</span></label>
+            <input id='companyname' name='companyname' type='text'/>
+          </div>
+          <div class='form-row blokR'>
+            <label for='jobtitle'>Job Title</label>
+            <input id='jobtitle' name='jobtitle' type='text'/>
+          </div>
+          <div class="clearfix"></div>
+          <div class='form-row full-row'>
+            <label for='street'>Street</label>
+            <input id='street' name='street' type='text'/>
+          </div>
+          <div class='form-row blokL'>
+            <label for='city'>City</label>
+            <input id='city' name='city' type='text'/>
+          </div>
+          <div class='form-row blokR'>
+            <label for='state'>State/Province</label>
+            <input id='state' name='state' type='text'/>
+          </div>
+          <div class="clearfix"></div>
+          <div class='form-row blokL'>
+            <label for='zip'>ZIP/Postal Code</label>
+            <input id='zip' name='zip' type='text'/>
+          </div>
+          <div class='form-row blokR'>
+            <label for='country'>Country/Region</label>
+            <input id='country' name='country' type='text'/>
+          </div>
+          <div class="clearfix"></div>
+          <div class='form-row full-row'>
+            <label for='topic'>Topic <span class="mandatory">*</span></label>
+            <input id='topic' name='topic' type='text'/>
+          </div>
+        </div>
+      </div>
+    </form>
+
+
+
+    <script src="script/main.js"></script>
+  </body>
+</html>
